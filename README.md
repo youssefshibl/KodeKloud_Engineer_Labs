@@ -30,5 +30,10 @@
   nano  /etc/ssh/sshd_config # change PermitRootLogin to `no`
   systemctl restart sshd # restart service
   ``````
+- ###### 008: Linux Archives
+  ``````bash
+ tar -cvzf test.tar.gz /data/test # compress test dir in test.tar.gz
+ mv test.tar.gz /home/  # move test.tar.gz to /home/
+  ``````
 
 
