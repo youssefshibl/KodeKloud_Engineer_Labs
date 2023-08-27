@@ -32,8 +32,8 @@
   ``````
 - ###### 008: Linux Archives
   ``````bash
- tar -cvzf test.tar.gz /data/test # compress test dir in test.tar.gz
- mv test.tar.gz /home/  # move test.tar.gz to /home/
+  tar -cvzf test.tar.gz /data/test # compress test dir in test.tar.gz
+  mv test.tar.gz /home/  # move test.tar.gz to /home/
   ``````
 
 
