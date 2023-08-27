@@ -23,7 +23,12 @@
   # this command find user1 files in this dir and copy them to /test 
   ``````
 
-- 
-
+- ###### 007: Disable Root Login
+  ``````bash
+  # there are flag in /etc/ssh/sshd_config
+  # `PermitRootLogin yes`
+  nano  /etc/ssh/sshd_config # change PermitRootLogin to `no`
+  systemctl restart sshd # restart service
+  ``````
 
 
