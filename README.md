@@ -35,5 +35,10 @@
   tar -cvzf test.tar.gz /data/test # compress test dir in test.tar.gz
   mv test.tar.gz /home/  # move test.tar.gz to /home/
   ``````
+- ###### 009: Linux File Permissions
+  ``````bash
+  chmod o+rx /tmp/xfusioncorp.sh #change Permissions of script read and execute
+  ``````  
+  
 
 
