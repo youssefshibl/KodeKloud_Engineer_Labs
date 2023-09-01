@@ -38,6 +38,20 @@
 - ###### 009: Linux File Permissions
   ``````bash
   chmod o+rx /tmp/xfusioncorp.sh #change Permissions of script read and execute
+  ``````
+- ###### 010: Linux Access Control List
+  ``````bash
+  setfacl -m u:user1:-,user2:r /etc/resolv.conf # setfacl to set special permission to file
+  getfacl /etc/resolve.conf
+  # file: etc/resolv.conf
+  # owner: root
+  # group: root
+  user::rw-
+  user:user1:---
+  user:user2:r--
+  group::r--
+  mask::r--
+  other::r--
   ``````  
   
 
