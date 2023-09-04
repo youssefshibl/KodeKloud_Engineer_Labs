@@ -52,7 +52,12 @@
   group::r--
   mask::r--
   other::r--
-  ``````  
+  ``````
+- ###### 011: Linux String Substitute
+    ``````bash
+  grep Random /root/nautilus.xml | wc -l # get match word and count them
+  sed -i 's/Random/Maritime/g' /root/nautilus.xml   # replace all "Random" by "Maritime"
+  ``````
   
 
 
