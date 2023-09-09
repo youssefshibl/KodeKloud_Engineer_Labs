@@ -58,6 +58,11 @@
   grep Random /root/nautilus.xml | wc -l # get match word and count them
   sed -i 's/Random/Maritime/g' /root/nautilus.xml   # replace all "Random" by "Maritime"
   ``````
+- ###### 012: Linux Remote Copy
+    ``````bash
+  scp -r /tmp/nautilus.txt.gpg steve@172.16.238.11:/home/code
+  # copy files from local by remote by "scp" 
+  ``````    
   
 
 
