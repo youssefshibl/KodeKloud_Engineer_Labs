@@ -63,6 +63,10 @@
   scp -r /tmp/nautilus.txt.gpg steve@172.16.238.11:/home/code
   # copy files from local by remote by "scp" 
   ``````    
-  
+  - ###### 013: Cron schedule deny to users
+    ``````bash
+  echo "user1" >> /etc/cron.allow
+  echo "user2" >> /etc/cron.deny
+  ``````    
 
 
