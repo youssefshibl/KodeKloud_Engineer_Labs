@@ -67,6 +67,11 @@
     ``````bash
   echo "user1" >> /etc/cron.allow
   echo "user2" >> /etc/cron.deny
-  ``````    
+  ``````
+
+- ###### 014: Linux TimeZones Setting
+    ``````bash
+  timedatectl set-timezone Africa/Cairo # change timezone
+  ``````        
 
 
